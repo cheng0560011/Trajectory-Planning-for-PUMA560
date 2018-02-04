@@ -1,0 +1,10 @@
+%Kinematic Table for Puma560
+
+%         d      a       alpha       theta(joint variables)
+       unit:m  unit:m    unit:rad    unit:rad
+          0      0      -pi/2        theta_1;
+          0      0.432   0           theta_2;
+          0.149  -0.02   pi/2        theta_3;
+          0.433  0       -pi/2       theta_4;
+          0      0       pi/2        theta_5;
+          0      0       0           theta_6;
